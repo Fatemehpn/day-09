@@ -7,3 +7,9 @@ button.addEventListener("click", () => {
 });
 
 // Thumb Navigation Toggle
+const seeMoreBtn = document.getElementById("thumb-nav-button");
+const thumbNav = document.getElementById("thumb-nav-secondary");
+
+seeMoreBtn.addEventListener("click", function () {
+    thumbNav.classList.toggle("toggled");
+});
