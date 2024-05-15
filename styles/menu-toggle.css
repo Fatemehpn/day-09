@@ -2,19 +2,21 @@
     background-color: #ddd;
 
     /* Option #1 */
-    display: none;
+    /* display: none; */
 
     /* Option #2 */
-
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
     /* Option #3 */
 }
 
 #main-nav-list.toggled {
     /* Option #1 - Toggled */
-    display: block;
+    /* display: block; */
 
     /* Option #2 - Toggled */
-
+    height: 30vh;
     /* Option #3 - Toggled */
 }
 
