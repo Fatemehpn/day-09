@@ -1,27 +1,31 @@
 #main-nav-list {
     background-color: #ddd;
-    
+
     /* Option #1 */
-    
+    /* display: none; */
 
     /* Option #2 */
-    
+    /* height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease; */
 
     /* Option #3 */
-    
+    /* position: fixed;
+    left: -100%;
+    top: 3rem;
+    transition: left 0.5s ease; */
 }
 
 #main-nav-list.toggled {
     /* Option #1 - Toggled */
-    
+    /* display: block; */
 
     /* Option #2 - Toggled */
-    
+    /* height: 30vh; */
 
     /* Option #3 - Toggled */
-    
+    /* left: 0; */
 }
-
 
 /* Thumb Navigation */
 .thumb-nav {
