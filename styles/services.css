@@ -203,6 +203,14 @@ nav a {
 }
 
 /* Social Media Styles */
+.social-media svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.social-media svg path {
+    fill: currentColor;
+}
 
 /* Grid Practice Styles */
 .grid-practice {
